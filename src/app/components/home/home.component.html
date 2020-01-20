@@ -1,0 +1,44 @@
+<!-- <app-instructions></app-instructions> -->
+
+<!-- Display Container (not part of component) START -->
+<div class="h-screen mx-auto p-16 sm:p-24 lg:p-48 bg-gray-200">
+    
+    <!-- Carousel Body -->
+    <div class="relative rounded-lg block md:flex items-center bg-gray-100 shadow-xl" style="min-height: 19rem;">
+
+      <div class="relative w-full md:w-2/5 h-full overflow-hidden rounded-t-lg md:rounded-t-none md:rounded-l-lg" style="min-height: 19rem;">
+
+        <img class="absolute inset-0 w-full h-full object-cover object-center" src="https://static.abc.es/media/historia/2018/08/04/hitler1-kqfG--1248x698@abc.jpg" alt="">
+
+        <div class="absolute inset-0 w-full h-full bg-indigo-900 opacity-75"></div>
+        
+      </div>
+
+      <div class="w-full md:w-3/5 h-full flex items-center bg-gray-100 rounded-lg">
+        <div class="p-12 md:pr-24 md:pl-16 md:py-12">
+          <p class="text-gray-600"><span class="text-gray-900">{{this.name}}</span> {{this.description}} </p>  
+
+          <button routerLink="/instructions/{{this.name}}" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-3 px-4 rounded inline-flex items-center">
+            <i class="fas fa-gamepad"></i>
+            <span class="ml-2">Jugar</span>
+          </button>
+
+        </div>
+        <svg class="hidden md:block absolute inset-y-0 h-full w-24 fill-current text-gray-100 -ml-12" viewBox="0 0 100 100" preserveAspectRatio="none">
+          <polygon points="50,0 100,0 50,100 0,100" />
+        </svg>
+      </div>
+
+      <button class="absolute top-0 mt-32 left-0 bg-white rounded-full shadow-md h-12 w-12 text-2xl text-indigo-600 hover:text-indigo-400 focus:text-indigo-400 -ml-6 focus:outline-none focus:shadow-outline">
+        <i class="fas fa-long-arrow-alt-left"></i>
+      </button>
+
+      <button class="absolute top-0 mt-32 right-0 bg-white rounded-full shadow-md h-12 w-12 text-2xl text-indigo-600 hover:text-indigo-400 focus:text-indigo-400 -mr-6 focus:outline-none focus:shadow-outline">
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </button>
+
+    </div>
+    
+    
+  </div>
+  <!-- Display Container (not part of component) END -->
