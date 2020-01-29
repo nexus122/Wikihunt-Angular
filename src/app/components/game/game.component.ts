@@ -9,7 +9,9 @@ import { HuntingService } from "../../services/hunting.service";
 })
 export class GameComponent implements OnInit {
   name:string;
-  data:any[] = [];
+  links:any[] = [];
+  nombres:any[] = [];
+  index:number = 0;
   constructor( private route:ActivatedRoute,
                private huntingService:HuntingService
              ) { 
@@ -18,8 +20,11 @@ export class GameComponent implements OnInit {
       this.name = params.name;      
     })
 
-    var data = huntingService.getRandom( this.name );          
-    console.log(data);
+    this.huntingService.getRandom( this.name ).subscribe(data =>{
+      console.log(data);   
+      this.nombres = data[0];
+      this.links = data[1];  
+  })
 
    }
 

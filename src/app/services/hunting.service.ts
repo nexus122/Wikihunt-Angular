@@ -7,28 +7,22 @@ import { HttpClient } from '@angular/common/http';
 
 export class HuntingService {
   name:string;
-  constructor( private httpClient: HttpClient ) { 
+  constructor( private http: HttpClient ) { 
     console.log(" Servidor de scraping listo ! ");
 
   }
 
-  getRandom( name:string ){    
-    
+  getRandom( name:string ){            
+
     console.log("Funcion que busca una pagina aleatoria de wikipedia");
 
-    
+    var data = "Especial:Aleatoria";
+    var leng = "es";
+    var winer = name;
 
-    const url = `https://hitler-s-hunt.herokuapp.com/enviar`;          
+    const url = `https://hitler-s-hunt.herokuapp.com/peticion/?data=${data}&&leng=${leng}&&winer=${winer}`;          
 
-    return this.httpClient.post(url,{
-      data:"/wiki/Especial:Aleatoria/",
-      leng:"es",
-      winer:"Adolf Hitler"
-    } ).toPromise().then(data =>{
-      console.log("data: ",data);
-    });    
-
-
+    return this.http.get(url); 
   }
 
 }
