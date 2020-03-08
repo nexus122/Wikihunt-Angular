@@ -3,9 +3,11 @@
 <h1 class="text-4xl germania text-center">{{this.name}}</h1>
 <p class="text-4xl germania text-center">0</p>
 <hr>
-<span *ngFor="let nombre of this.nombres; let indice=index">
-    <li class="list-none w-full h-15 p-5 text-2xl cursor-pointer hover:text-red-600">
-        <a name="{{links[indice]}}">{{nombre}}</a>        
-    </li>
+<span class="flex flex-wrap">
+    <span *ngFor="let nombre of this.nombres; let indice=index" class=" w-full sm:w-1/2 md:w-1/3">
+        <li class="list-none h-15 p-5 text-2xl cursor-pointer hover:text-red-600">
+            <a name="{{links[indice]}}" ng-click="myFunc()">{{nombre}}</a>        
+        </li>
+    </span>
 </span>
 </div>
