@@ -11,8 +11,8 @@ const routes: Routes = [
   {path: 'instructions/:name', component: InstructionsComponent},
   {path: 'home', component: HomeComponent},
   {path: 'win/:name/:cont', component: WinComponent},
-  {path: '', pathMatch: 'full', redirectTo: 'home'},
-  {path: '**', pathMatch: 'full', redirectTo: 'home'}
+  {path: '', pathMatch: 'full', redirectTo: 'home'},  
+  {path: '**', component: HomeComponent}
 ];
 
 @NgModule({

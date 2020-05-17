@@ -813,8 +813,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       redirectTo: 'home'
     }, {
       path: '**',
-      pathMatch: 'full',
-      redirectTo: 'home'
+      component: _components_home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"]
     }];
 
     var AppRoutingModule = function AppRoutingModule() {

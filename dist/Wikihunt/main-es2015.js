@@ -373,7 +373,7 @@ const routes = [
     { path: 'home', component: _components_home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"] },
     { path: 'win/:name/:cont', component: _components_win_win_win_component__WEBPACK_IMPORTED_MODULE_6__["WinComponent"] },
     { path: '', pathMatch: 'full', redirectTo: 'home' },
-    { path: '**', pathMatch: 'full', redirectTo: 'home' }
+    { path: '**', component: _components_home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"] }
 ];
 let AppRoutingModule = class AppRoutingModule {
 };
