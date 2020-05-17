@@ -4,39 +4,39 @@ import { Injectable } from '@angular/core'
 export class PersonajesService {
     private personaje: Personaje[] = [
         {
-            name: "Aquaman",
-            desciption: "El poder más reconocido de Aquaman es la capacidad telepática para comunicarse con la vida marina, la cual puede convocar a grandes distancias.",
-            img: "https://www.cinemascomics.com/wp-content/uploads/2019/08/aquaman-2.jpg"
+            name: "Isaac Newton",
+            desciption: "Fue un físico, teólogo, inventor, alquimista y matemático inglés. Es autor de los Philosophiæ naturalis principia mathematica, más conocidos como los Principia, donde describe la ley de la gravitación universal y estableció las bases de la mecánica clásica mediante las leyes que llevan su nombre. Entre sus otros descubrimientos científicos destacan los trabajos sobre la naturaleza de la luz y la óptica (que se presentan principalmente en su obra Opticks), y en matemáticas, el desarrollo del cálculo infinitesimal.",
+            img: "https://www.xlsemanal.com/wp-content/uploads/sites/3/2017/03/conocer-historia-isaac-newton-xlsemanal-2-1024x672.jpg"
         },
         {
-            name: "Batman",
-            desciption: "Los rasgos principales de Batman se resumen en «destreza física, habilidades deductivas y obsesión». La mayor parte de las características básicas de los cómics han variado por las diferentes interpretaciones que le han dado al personaje.",
-            img: "https://www.cinemascomics.com/wp-content/uploads/2017/01/batman-David-Larrad.jpg",
+            name: "Cristo",
+            desciption: "Las principales creencias cristianas acerca de Jesucristo incluyen su consideración como el Hijo de Dios, constituido como Señor; que fue concebido por el Espíritu Santo y que nació de la Virgen María; que fue crucificado, muerto y sepultado durante el mandato de Poncio Pilato; que descendió a los infiernos y posteriormente resucitó de la muerte y subió a los cielos, donde se encuentra junto a Dios Padre y desde donde volverá para el Juicio Final.",
+            img: "https://lh3.googleusercontent.com/proxy/EFzwBtTMYMRKIz42eHHNwxn45DgQnJlh70ph-nen13anLZkbhIoM6mc8awBlwSvbYpk2r_iZKx-5CMH-lEMuW3bZkLHRQ_WJRqQKNsItBhvTG9hJTsNZFTobfI0N79On4EI",
         },
         {
-            name: "Daredevil",
-            desciption: "Al haber perdido la vista, los cuatro sentidos restantes de Daredevil fueron aumentados por la radiación a niveles superhumanos, en el accidente que tuvo cuando era niño. A pesar de su ceguera, puede \"ver\" a través de un \"sexto sentido\" que le sirve como un radar similar al de los murciélagos.",
-            img: "https://elintransigente.com/wp-content/uploads/2019/12/Daredevil.jpg?w=1024?w=1000&h=600&crop=1",
+            name: "Buda",
+            desciption: "Fue un asceta, yogui, mendicante, filósofo y sabio en cuyas enseñanzas se fundó el budismo. Enseñó principalmente en el noroeste del subcontinente Indio por unos cuarenta años.​ Su enseñanza se basa en una visión del sufrimiento y el fin del sufrimiento nirvaṇa.",
+            img: "https://i.pinimg.com/originals/4a/77/dc/4a77dc38ec7dde0b01d82f2b63349d57.jpg",
         },
         {
-            name: "Hulk",
-            desciption: "Su principal poder es su capacidad de aumentar su fuerza hasta niveles prácticamente ilimitados a la vez que aumenta su furia. Dependiendo de qué personalidad de Hulk esté al mando en ese momento (el Hulk Banner es el más débil, pero lo compensa con su inteligencia).",
-            img: "https://as.com/meristation/imagenes/2019/10/08/noticias/1570522585_909312_1570522675_noticia_normal.jpg"
+            name: "Confucio",
+            desciption: "Fue un reconocido pensador chino cuya doctrina recibe el nombre de confucianismo.​ Procedente de una familia noble arruinada, a lo largo de su vida alternó periodos en los que ejerció como maestro con otros durante los cuales fue funcionario del pequeño estado de Lu, trabajó de carpintero en el noreste de China, durante la época de fragmentación del poder bajo la dinastía Zhou o período de los Reinos Combatientes.",
+            img: "https://datosdefamosos.com/wp-content/uploads/2019/08/confucio-biografia.jpg"
         },
         {
-            name: "Linterna Verde",
-            desciption: "Poseedor del anillo de poder que posee la capacidad de crear manifestaciones de luz sólida mediante la utilización del pensamiento. Es alimentado por la Llama Verde (revisada por escritores posteriores como un poder místico llamado Starheart), una llama mágica contenida en dentro de un orbe (el orbe era en realidad un meteorito verde de metal que cayó a la Tierra, el cual encontró un fabricante de lámparas llamado Chang)",
-            img: "https://www.cinemascomics.com/wp-content/uploads/2010/11/Linterna-Verde-2011.jpg"
+            name: "Albert Einstein",
+            desciption: "Fue un físico alemán de origen judío, nacionalizado después suizo, austriaco y estadounidense. Se le considera el científico más importante, conocido y popular del siglo XX.",
+            img: "https://media.metrolatam.com/2018/01/23/alberteinstein-1200x800.jpg"
         },
         {
-            name: "Spider-Man",
-            desciption: "Tras ser mordido por una araña radiactiva, obtuvo los siguientes poderes sobrehumanos, una gran fuerza, agilidad, poder trepar por paredes. La fuerza de Spider-Man le permite levantar 10 toneladas o más. Gracias a esta gran fuerza Spider-Man puede realizar saltos íncreibles. Un \"sentido arácnido\", que le permite saber si un peligro se cierne sobre él, antes de que suceda. En ocasiones este puede llevar a Spider-Man al origen del peligro.",
-            img: "https://cnet1.cbsistatic.com/img/rfzZ-7G32v_qEt2uCD0b4KB2rho=/940x0/2019/03/26/13d0a566-7355-4381-be24-dee281227504/spider-man-far-from-home-promo-image-1.jpg"
+            name: "Adolf Hitler",
+            desciption: "ue un político, militar y dictador alemán de origen austrohúngaro. Fue canciller imperial desde 1933 y Führer de Alemania desde 1934 hasta su muerte. Llevó al poder al Partido Nacionalsocialista Obrero Alemán o Partido Nazi,b​ estableciendo un régimen totalitario durante el período conocido como Tercer Reich o Alemania nazi.​ Inició la Segunda Guerra Mundial al invadir Polonia el 1 de septiembre de 1939 y es una figura clave en la perpetración del Holocausto.",
+            img: "https://static1.abc.es/media/historia/2018/08/04/hitler1-kqfG--620x349@abc.jpg"
         },
         {
-            name: "Lobezno",
-            desciption: "En el universo ficticio de Marvel, Wolverine posee poderes regenerativos que pueden curar cualquier herida, por mortal que ésta sea, además ese mismo poder hace que sea inmune a cualquier enfermedad existente en la Tierra y algunas extraterrestres . Posee también una fuerza sobrehumana, que si bien no se compara con la de otros superhéroes como Hulk, sí sobrepasa la de cualquier humano.",
-            img: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hugh-jackman-lobezno-1542885513.jpg?crop=1.00xw:0.446xh;0,0.116xh&resize=480:*"
+            name: "Friedrich Nietzsche",
+            desciption: "Fue un filósofo, poeta, músico y filólogo alemán del siglo XIX, considerado uno de los filósofos más importantes de la filosofía occidental, cuya obra ha ejercido una profunda influencia tanto en la historia como en la cultura occidental.",
+            img: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSKH7XTpOOlwTMsjLS_ZbiG9kaU1evOaxjjfjz8H7c60DMyYDEo&usqp=CAU"
         }
     ];
 

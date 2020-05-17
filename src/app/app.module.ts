@@ -9,12 +9,8 @@ import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { InstructionsComponent } from './components/instructions/instructions.component';
 import { GameComponent } from './components/game/game.component';
-
-//Toast
-import { CommonModule } from '@angular/common';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ToastrModule } from 'ngx-toastr';
 import { WinComponent } from './components/win/win/win.component';
+import { FooterComponent } from './components/shared/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -23,15 +19,13 @@ import { WinComponent } from './components/win/win/win.component';
     NavbarComponent,
     InstructionsComponent,
     GameComponent,
-    WinComponent,    
+    WinComponent,
+    FooterComponent,    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,
-    CommonModule,
-    BrowserAnimationsModule,
-    ToastrModule.forRoot()
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

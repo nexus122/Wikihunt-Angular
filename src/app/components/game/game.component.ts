@@ -8,6 +8,7 @@ import {Router} from '@angular/router';
   templateUrl: './game.component.html',
   styleUrls: ['./game.component.css']
 })
+
 export class GameComponent implements OnInit {
   name: string;
   title: string;
@@ -37,7 +38,6 @@ export class GameComponent implements OnInit {
       this.title = data[2];
       this.loading = false;
     })
-
   }
 
   ngOnInit() {
@@ -59,7 +59,7 @@ export class GameComponent implements OnInit {
       if(error.status == 200){
         if(error.error.text == "WIN"){
           console.log(" Has ganado ! ");
-          this.router.navigate(['win']);
+          this.router.navigate(['win/'+this.name+"/"+this.cont]);
         }
       }else{
         console.error('There was an error!', error);
@@ -68,4 +68,5 @@ export class GameComponent implements OnInit {
       }
     })
   }
+
 }

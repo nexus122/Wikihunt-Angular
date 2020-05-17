@@ -1,2 +1,35 @@
-<p>win works!</p>
-<span class="flex h-screen w-screen" style="background: url(https://www.lavanguardia.com/r/GODO/LV/p7/WebSite/2020/02/24/Recortada/img_jmarting_20200224-122824_imagenes_lv_terceros_victoria_samotracia-kMrE-U473738721956N0H-992x558@LaVanguardia-Web.jpg)"></span>
+<span class="flex h-screen w-screen container m-auto mt-12 ">
+    <div class="w-1/2">
+        <a href="https://es.wikipedia.org/wiki/Victoria_alada_de_Samotracia" target="_blank"><img src="https://www.lavanguardia.com/r/GODO/LV/p7/WebSite/2020/02/24/Recortada/img_jmarting_20200224-122824_imagenes_lv_terceros_victoria_samotracia-kMrE-U473738721956N0H-992x558@LaVanguardia-Web.jpg" alt=""></a>
+        <p><small>Victoria alada de Samotracia</small></p>
+    </div>
+    <div class="w-1/2 pl-5">
+        <h1 class="text-4xl">🤘 Felicidades has encontrado a <b>{{this.name}}</b> en solo <b>{{this.pasos}}</b> pasos!</h1>
+        <h2 class="text-3xl">¿Seguro que puedes mejorar esta marca 😏?</h2>
+        <h2 class="text-2xl">Si te ha gustado ayudanos y compartelo con tus amigos</h2>
+
+        <!-- Redes sociales -->
+        <span class="flex flex-wrap social">
+        <a class="mr-2 mt-5 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-3 px-4 rounded inline-flex items-center" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://wikihunt.es">
+            <i class="fab fa-facebook-square mr-2"></i> Facebook
+        </a>
+        <a class="mr-2 mt-5 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-3 px-4 rounded inline-flex items-center" target="_blank" href="https://twitter.com/intent/tweet?text=Podrás%20encontrar%20a%20los%20personajes%20mas%20famosos%20de%20la%20historia?%20https://wikihunt.es&hashtags=wikihunt">
+            <i class="fab fa-twitter-square mr-2"></i> Twitter
+        </a>
+
+        <a class="mr-2 mt-5 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-3 px-4 rounded inline-flex items-center" target="_blank" href="https://api.whatsapp.com/send?text=Podrás%20encontrar%20a%20los%20personajes%20mas%20famosos%20de%20la%20historia?%20https://wikihunt.es">
+            <i class="fab fa-whatsapp-square mr-2"></i> Whatsapp
+        </a>
+        <a class="mr-2 mt-5 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-3 px-4 rounded inline-flex items-center" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url=https://wikihunt.es">
+            <i class="fab fa-linkedin mr-2"></i> Linkedin
+        </a>
+    </span>
+
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
+
+        <button routerLink="/home" class="mt-5 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-3 px-4 rounded inline-flex items-center">
+            <i class="fas fa-gamepad"></i>
+            <span class="ml-2">Volver a jugar</span>            
+          </button>
+    </div>
+</span>

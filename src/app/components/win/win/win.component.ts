@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
+import { ActivatedRoute } from "@angular/router";
 
 @Component({
   selector: 'app-win',
@@ -6,8 +8,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./win.component.css']
 })
 export class WinComponent implements OnInit {
-
-  constructor() { }
+  name:string;
+  pasos:string;
+  constructor(private router:Router,
+              private route: ActivatedRoute
+  ) { 
+    this.route.params.subscribe(params => {
+      this.name = params.name;
+      this.pasos = params.cont;
+    })
+  }
 
   ngOnInit() {
   }
