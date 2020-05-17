@@ -8,7 +8,7 @@
 
       <div class="relative w-full md:w-2/5 h-full overflow-hidden rounded-t-lg md:rounded-t-none md:rounded-l-lg" style="min-height: 19rem;">
 
-        <img class="absolute inset-0 w-full h-full object-cover object-center" src="https://static.abc.es/media/historia/2018/08/04/hitler1-kqfG--1248x698@abc.jpg" alt="">
+        <img class="absolute inset-0 w-full h-full object-cover object-center" src="{{this.img}}" alt="{{this.name}}">
 
         <div class="absolute inset-0 w-full h-full bg-indigo-900 opacity-75"></div>
         
@@ -29,11 +29,11 @@
         </svg>
       </div>
 
-      <button class="absolute top-0 mt-32 left-0 bg-white rounded-full shadow-md h-12 w-12 text-2xl text-indigo-600 hover:text-indigo-400 focus:text-indigo-400 -ml-6 focus:outline-none focus:shadow-outline">
+      <button (click)="back()" class="absolute top-0 mt-32 left-0 bg-white rounded-full shadow-md h-12 w-12 text-2xl text-indigo-600 hover:text-indigo-400 focus:text-indigo-400 -ml-6 focus:outline-none focus:shadow-outline">
         <i class="fas fa-long-arrow-alt-left"></i>
       </button>
 
-      <button class="absolute top-0 mt-32 right-0 bg-white rounded-full shadow-md h-12 w-12 text-2xl text-indigo-600 hover:text-indigo-400 focus:text-indigo-400 -mr-6 focus:outline-none focus:shadow-outline">
+      <button (click)="next()" class="absolute top-0 mt-32 right-0 bg-white rounded-full shadow-md h-12 w-12 text-2xl text-indigo-600 hover:text-indigo-400 focus:text-indigo-400 -mr-6 focus:outline-none focus:shadow-outline">
         <i class="fas fa-long-arrow-alt-right"></i>
       </button>
 
