@@ -4,9 +4,9 @@
 <div class="h-full mx-auto p-16 sm:p-24 lg:p-48 bg-gray-200">
     
     <!-- Carousel Body -->
-    <div class="relative rounded-lg block md:flex items-center bg-gray-100 shadow-xl" style="min-height: 19rem;">
+    <div class="relative rounded-lg block md:flex items-center bg-gray-100 shadow-xl" style="height: 20rem;">
 
-      <div class="relative w-full md:w-2/5 h-full overflow-hidden rounded-t-lg md:rounded-t-none md:rounded-l-lg" style="min-height: 19rem;">
+      <div class="relative w-full md:w-2/5 h-full overflow-hidden rounded-t-lg md:rounded-t-none md:rounded-l-lg" style="height: 20rem;">
 
         <img class="absolute inset-0 w-full h-full object-cover object-top" src="{{this.img}}" alt="{{this.name}}">
 
@@ -16,12 +16,17 @@
 
       <div class="w-full md:w-3/5 h-full flex items-center bg-gray-100 rounded-lg">
         <div class="p-12 md:pr-24 md:pl-16 md:py-12">
-          <p class="text-gray-600"><span class="text-gray-900"><b>{{this.name}}</b></span> {{this.description}} </p>  
+          <p class="text-gray-600"><span class="text-gray-900"><b>{{this.name}}</b></span> <span class="hidden sm:block">{{this.description}}</span> </p>  
 
-          <button routerLink="/instructions/{{this.name}}" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-3 px-4 rounded inline-flex items-center">
+          <button routerLink="/instructions/{{this.name}}" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-3 px-4 rounded inline-flex items-center mr-2">
             <i class="fas fa-gamepad"></i>
             <span class="ml-2">Jugar</span>
           </button>
+
+          <a href="{{this.wiki}}" target="_blank" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-3 px-4 rounded inline-flex items-center">
+            <i class="fab fa-wikipedia-w"></i>
+            <span class="ml-2">Saber mas</span>
+          </a>
 
         </div>
         <svg class="hidden md:block absolute inset-y-0 h-full w-24 fill-current text-gray-100 -ml-12" viewBox="0 0 100 100" preserveAspectRatio="none">

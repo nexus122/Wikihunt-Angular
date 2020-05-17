@@ -22,14 +22,16 @@ export class HomeComponent implements OnInit {
   description:string;
   img:string;
   personaje: any;
+  wiki:string;
 
   ngOnInit() {
   }
 
   actualPJ(){
     this.name = this.personaje[this.slide].name;
-    this.description = this.personaje[this.slide].desciption;
+    this.description = this.personaje[this.slide].desciption.slice(0,200)+"...";
     this.img = this.personaje[this.slide].img
+    this.wiki = this.personaje[this.slide].wiki
   }
 
   next(){
