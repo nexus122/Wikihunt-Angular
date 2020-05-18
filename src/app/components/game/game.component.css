@@ -5,3 +5,8 @@
 img#carga {
     margin: 0 auto;
 }
+
+button {
+    background: #3c366b!important;
+    color: white!important;
+}
