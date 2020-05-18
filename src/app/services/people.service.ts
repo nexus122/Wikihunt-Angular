@@ -12,7 +12,7 @@ export class PersonajesService {
         {
             name: "Jesús de Nazaret",
             desciption: "fue un predicador y líder religioso judío del siglo i. Es la figura central del cristianismo y una de las más influyentes de la historia.",
-            img: "https://lh3.googleusercontent.com/proxy/Dl3KgzkbAQANXjr2oj30tU0VC-WBA3_wVX6DDVg3_J0KercSnFsEOhSwRKLPKYEYqL6KYAEbdiW_vkQJ0TpurIoI7uYphxUBeUDrAw4BQHtUvLXXBxerxLynYA4GNiU8dfUxe2D-vBgRZKu-esv77a30KdDt",
+            img: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/%C3%9Altima_Cena_-_Juan_de_Juanes.jpg/1280px-%C3%9Altima_Cena_-_Juan_de_Juanes.jpg",
             wiki: "https://es.wikipedia.org/wiki/Cristo"
         },
         {
@@ -35,7 +35,7 @@ export class PersonajesService {
         },
         {
             name: "Adolf Hitler",
-            desciption: "ue un político, militar y dictador alemán de origen austrohúngaro. Fue canciller imperial desde 1933 y Führer de Alemania desde 1934 hasta su muerte. Llevó al poder al Partido Nacionalsocialista Obrero Alemán o Partido Nazi,b​ estableciendo un régimen totalitario durante el período conocido como Tercer Reich o Alemania nazi.​ Inició la Segunda Guerra Mundial al invadir Polonia el 1 de septiembre de 1939 y es una figura clave en la perpetración del Holocausto.",
+            desciption: "Fue un político, militar y dictador alemán de origen austrohúngaro. Fue canciller imperial desde 1933 y Führer de Alemania desde 1934 hasta su muerte. Llevó al poder al Partido Nacionalsocialista Obrero Alemán o Partido Nazi,b​ estableciendo un régimen totalitario durante el período conocido como Tercer Reich o Alemania nazi.​ Inició la Segunda Guerra Mundial al invadir Polonia el 1 de septiembre de 1939 y es una figura clave en la perpetración del Holocausto.",
             img: "https://static1.abc.es/media/historia/2018/08/04/hitler1-kqfG--620x349@abc.jpg",
             wiki: "https://es.wikipedia.org/wiki/Adolf_Hitler"
         },
