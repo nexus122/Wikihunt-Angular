@@ -1799,7 +1799,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }, {
           name: "Buda Gautama",
           desciption: "Fue un asceta, yogui, mendicante, filósofo y sabio en cuyas enseñanzas se fundó el budismo. Enseñó principalmente en el noroeste del subcontinente Indio por unos cuarenta años.​ Su enseñanza se basa en una visión del sufrimiento y el fin del sufrimiento nirvaṇa.",
-          img: "https://i.pinimg.com/originals/4a/77/dc/4a77dc38ec7dde0b01d82f2b63349d57.jpg",
+          img: "https://northstonebcn.com/wp-content/uploads/2018/05/Siddharta-Gautama-buda-1.jpg",
           wiki: "https://es.wikipedia.org/wiki/Buda_Gautama"
         }, {
           name: "Confucio",
