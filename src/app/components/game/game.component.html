@@ -21,7 +21,7 @@
   <!-- Conceptos  -->  
   <span *ngIf="!loading" class="flex flex-wrap">    
       <span *ngFor="let nombre of this.nombres; let indice=index" class=" w-full sm:w-1/2 md:w-1/3">
-          <li class="list-none h-15 p-5 text-2xl cursor-pointer hover:text-red-600">
+          <li class="list-none h-15 p-5 text-2xl cursor-pointer option">
               <a name="{{links[indice]}}" (click)="getPage(nombre, this.name, links[indice])">{{nombre}}</a>        
           </li>
       </span>

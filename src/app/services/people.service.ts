@@ -30,7 +30,7 @@ export class PersonajesService {
         {
             name: "Albert Einstein",
             desciption: "Fue un físico alemán de origen judío, nacionalizado después suizo, austriaco y estadounidense. Se le considera el científico más importante, conocido y popular del siglo XX.",
-            img: "https://media.metrolatam.com/2018/01/23/alberteinstein-1200x800.jpg",
+            img: "https://okdiario.com/img/2017/12/05/albert-einstein-655x368.jpg",
             wiki: "https://es.wikipedia.org/wiki/Albert_Einstein"
         },
         {
@@ -44,6 +44,30 @@ export class PersonajesService {
             desciption: "Fue un filósofo, poeta, músico y filólogo alemán del siglo XIX, considerado uno de los filósofos más importantes de la filosofía occidental, cuya obra ha ejercido una profunda influencia tanto en la historia como en la cultura occidental.",
             img: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSKH7XTpOOlwTMsjLS_ZbiG9kaU1evOaxjjfjz8H7c60DMyYDEo&usqp=CAU",
             wiki: "https://es.wikipedia.org/wiki/Friedrich_Nietzsche"
+        },
+        {
+            name: "Virginia Woolf",
+            desciption: "Fue una escritora británica, considerada una de las más destacadas figuras del vanguardista modernismo anglosajón del siglo XX y del feminismo internacional.",
+            img: "https://castellonplaza.com/public/Image/2020/4/Virginia_Woolf_NoticiaAmpliada.jpg",
+            wiki: "https://es.wikipedia.org/wiki/Virginia_Woolf"
+        },
+        {
+            name: "Cristina de Suecia",
+            desciption: "Fue reina de Suecia (1632-1654), duquesa de Bremen y princesa de Verden (1648-1654). Hija de Gustavo II Adolfo y de María Leonor de Brandeburgo. Protectora de las artes y mecenas, abdicó del trono de Suecia en 1654. Protestante de nacimiento, se convirtió al catolicismo el año de su abdicación. Murió en Roma a los 62 años.",
+            img: "https://article-imgs.scribdassets.com/5cugklfpds7n5kl0/images/fileBEU6TU4J.jpg",
+            wiki: "https://s1.eestatic.com/2020/05/11/cultura/historia/Monarquia-Roma-Curiosidades_de_la_historia-Historia_489212086_151786905_1024x576.jpg"
+        },
+        {
+            name: "Federico García Lorca",
+            desciption: "fue el poeta de mayor influencia y popularidad de la literatura española del siglo xx. Como dramaturgo se le considera una de las cimas del teatro español del siglo xx, junto con Valle-Inclán y Buero Vallejo. Murió asesinado un mes después del golpe de Estado con el que tuvo lugar el inicio de la guerra civil española.",
+            img: "https://s1.eestatic.com/2018/08/29/cultura/Federico_Garcia_Lorca-Junta_de_Andalucia-Cultura_333978795_94995007_1706x960.jpg",
+            wiki: "https://es.wikipedia.org/wiki/Federico_Garc%C3%ADa_Lorca"
+        },
+        {
+            name: "Caravaggio",
+            desciption: "fue un pintor italiano, activo en Roma, Nápoles, Malta y Sicilia entre 1593 y 1610. Su pintura combina una observación realista de la figura humana, tanto en lo físico como en lo emocional, con un uso dramático de la luz, lo cual ejerció una influencia decisiva en la formación de la pintura del Barroco.",
+            img: "https://ichef.bbci.co.uk/news/410/cpsprodpb/4BC4/production/_92069391_mediaitem92069390.jpg",
+            wiki: "https://es.wikipedia.org/wiki/Caravaggio"
         }
     ];
 
